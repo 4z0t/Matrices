@@ -30,7 +30,7 @@ namespace Matrices
             }
             catch (Exception e)
             {
-                Console.WriteLine("Не удалось загрузить файл! ");
+                Console.WriteLine("Cant load file");
                 Console.WriteLine(e);
             }
             finally
